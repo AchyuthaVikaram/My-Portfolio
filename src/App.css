@@ -105,3 +105,29 @@
 .project-card-view-horizontal .card-img-top {
   background: transparent !important;
 }
+
+/* Responsive Styles for Small Screens */
+@media (max-width: 768px) {
+  .project-card-view-horizontal {
+    flex-direction: column;
+  }
+
+  .card-horizontal {
+    flex-direction: column;
+  }
+
+  .card-img-section {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .card-content-section {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .project-card-img {
+    border-radius: 20px 20px 0 0 !important;
+  }
+}

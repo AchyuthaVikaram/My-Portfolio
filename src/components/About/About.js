@@ -12,6 +12,19 @@ function About() {
 			<Particle />
 			<Container style={{ paddingTop: "0", marginTop: "1rem" }}>
 				<Row style={{ justifyContent: "center", padding: "10px" }}>
+					
+					<Col
+						md={5}
+						style={{ paddingTop: "120px", paddingBottom: "50px" }}
+						className="about-img"
+					>
+						<img
+							src={myImg}
+							alt="about"
+							className="img-fluid"
+							style={{ borderRadius: "50%" }}
+						/>
+					</Col>
 					<Col
 						md={7}
 						style={{
@@ -24,18 +37,6 @@ function About() {
 							Know Who <strong className="purple">I'M</strong>
 						</h1>
 						<Aboutcard />
-					</Col>
-					<Col
-						md={5}
-						style={{ paddingTop: "120px", paddingBottom: "50px" }}
-						className="about-img"
-					>
-						<img
-							src={myImg}
-							alt="about"
-							className="img-fluid"
-							style={{ borderRadius: "50%" }}
-						/>
 					</Col>
 				</Row>
 				<h1 className="project-heading">
