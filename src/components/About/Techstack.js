@@ -12,6 +12,7 @@ import {
 import { FaBootstrap, FaCss3Alt, FaDocker, FaHtml5 } from "react-icons/fa";
 import { SiMysql, SiExpress, SiTailwindcss } from "react-icons/si";
 
+
 function Techstack() {
   // Array of technology icons and labels
   const techStack = [
