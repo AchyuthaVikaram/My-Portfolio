@@ -9,7 +9,6 @@ function Type() {
           "MERN Stack Developer",
           "DSA Coder",
           "JAVA Developer",
-          "Open Source Contributor",
         ],
         autoStart: true,
         loop: true,
