@@ -24,9 +24,9 @@ function AboutCard() {
 						skills, I have practical experience working with cloud platforms
 						such as AWS, and deploying applications via Render,Vercel. I have
 						developed and deployed projects such as 'Trendify,' 'JobHunt,'
-						'Wanderlust,' and 'Event Management,' and have worked extensively
-						with technologies like HTML, CSS, JavaScript, Bootstrap, SQL, and
-						Django. I thrive in fast-paced environments and am eager to apply my
+						'Wanderlust,' and have worked extensively
+						with technologies like HTML, CSS, JavaScript, Bootstrap, SQL.
+						I thrive in fast-paced environments and am eager to apply my
 						skills in challenging roles where I can contribute to developing
 						innovative solutions and optimizing existing systems.
 					</p>
