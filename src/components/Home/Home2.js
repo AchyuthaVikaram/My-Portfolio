@@ -36,12 +36,12 @@ function Home2() {
 							</i>
 							and exploring domains like
 							<i>
-								<b className="purple"> Machine Learning ,DSA </b>
+								<b className="purple"> Devops ,DSA </b>
 							</i>
 							<br />
 							<br />I am driven by the desire to develop applications that
 							simplify processes, such as event management systems and real-time
-							platforms like <b className="purple">SkillXchange</b>.
+							platforms like <b className="purple">SensAI</b>.
 							<br />
 							<br />
 							Whenever possible, I also contribute to open-source projects and

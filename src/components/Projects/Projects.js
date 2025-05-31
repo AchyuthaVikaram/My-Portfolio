@@ -1,15 +1,23 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import trendify from "../../Assets/Trendify.png";
 import netconnect from "../../Assets/NetConnect.png";
 import newsgenerator from "../../Assets/newsgenerator.png";
 import wanderlust from "../../Assets/wanderlust.png";
 import jobhunt from "../../Assets/jobhunt.png";
+import sensai from "../../Assets/sensai.png";
 
 function Projects() {
   const projects = [
+    {
+      imgPath: sensai,
+      title: "SensAI",
+      description:
+        "SensAI is a full-stack AI-powered career coaching platform built to assist students and professionals in making informed career decisions. It offers personalized career guidance, resume feedback, and weekly industry insights using Gemini AI. Users can explore tailored career paths, receive AI-generated recommendations, and interact with a secure, user-friendly dashboard.\n\nTechnologies Used: Next.js 15 for frontend and routing, Tailwind CSS and Shadcn UI for styling, NeonDB and Prisma for database and ORM, Clerk for authentication, Inngest for workflow automation, and Gemini AI for personalized intelligence.\n\nPurpose: To empower users with AI-driven insights and tools for effective career planning and advancement in a modern, responsive web environment.",
+      ghLink: "https://github.com/AchyuthaVikaram/SenseAI--AI-Career-Coach",
+      demoLink: "https://sense-ai-ai-career-coach.vercel.app/"
+    },
     {
       imgPath: jobhunt,
       title: "JobHunt",
@@ -54,7 +62,6 @@ function Projects() {
 
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works</strong>
